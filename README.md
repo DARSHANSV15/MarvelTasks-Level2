@@ -138,3 +138,30 @@ _____
 
 # Task 6 - Linux Continued
 
+Objectives of this task:
+* Basics of regex and piping.
+* Learn how grep works.
+* Use grep to extract login times within a date/time range from the login logs using the 'last' command.
+* Pipe this information into a text file and put it into a folder named logs. Zip this folder using gzip and tar.  
+
+### Hands on experience >>>>>
+
+To create an empty folder named logs and an empty file.  
+```shell
+mkdir logs
+cd logs/
+touch task6.txt
+```  
+![](https://img.playbook.com/v6stDpEFvEv85cEl8SJov0gz-3NlwLm80vkIvb5vyeY/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2MwY2FjZTQ4/LWMzNjAtNGJhMS04/NDgwLWY4YjliMWM0/MDliYw)
+To fetch login times using **last** command, to extract login times within a date/time range from the login logs and  pipe this information into a text file. 
+```shell
+last | grep '.2[0-9] 1[3-9]:.' > task6.txt
+```  
+![](https://img.playbook.com/Rh-gYLlHjlarNUgXpUDLSIXgkjvre9Juf9Yn1xTXINQ/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RiNDRkZjMx/LTBiN2ItNGJhMS1i/ZTBjLWE5YmNjOTFj/NTFmNw)
+And finally, zip this folder using gzip and tar.  
+```shell
+tar -cvf logs.tar logs
+gzip logs.tar
+```  
+![](https://img.playbook.com/xAgLCJjB2SDgO5Z8PQHLMpOwM3Yt2scWiHC0ZeTPjmg/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzJmMmY3NGRi/LWFiYTEtNDIwNy1h/ZWU3LTQzZThmMzU1/Y2ExMw)
+_____
