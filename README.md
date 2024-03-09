@@ -30,7 +30,7 @@ Important topics in JavaScript include:
 
 5. *Error Handling:* Handling errors gracefully using try-catch blocks and understanding common JavaScript errors.
 
-#### My hands-on experience >>>>
+### Hands-on experience >>>>
 
 I have created this wonderfull static webpage, **Student Performances Calculator** using JavaScript. It take name, marks of students through a **html** form and calculate the following results:
 
@@ -46,6 +46,95 @@ I have created this wonderfull static webpage, **Student Performances Calculator
 
 [Link to the live webpage](https://student-performance-calculator.netlify.app/)
 ________________________________________
+# Task 2 - Async JS
+
+**Asynchronous JavaScript** refers to a programming pattern used in JavaScript to handle operations that might take some time to complete, such as fetching data from a server or performing calculations. It does not block the execution of other code. This allows JavaScript to **perform multiple tasks simultaneously** without waiting for one operation to finish before starting another. This improves the performance and responsiveness of web applications.  
+
+A **Callback** is a function that is passed as an argument to another function and is executed later, typically after the completion of an asynchronous operation or some other event. 
+
+### Hands-on experience >>>>
+
+I have implemented a small callback based website that displays the steps to bake a cake.  
+
+#### Crux Code
+
+```js
+const displayStep = (step, callback) => {
+  const recipeStepsElement = document.getElementById('recipe-steps');
+  const stepDiv = document.createElement('div');
+  stepDiv.textContent = step;
+  recipeStepsElement.appendChild(stepDiv);
+  setTimeout(callback, 2000);
+};
+
+const startRecipe = () => {
+  let index = 0;
+
+  const displayNextStep = () => {
+    if (index < recipeSteps.length) {
+      const step = recipeSteps[index];
+      displayStep(step, () => {
+        autoScrollDown(displayNextStep);
+      });
+      index++;
+    } else {
+      alert("Recipe completed!");
+    }
+  };
+
+  displayNextStep();
+};
+```  
+
+![](https://img.playbook.com/7JOzYnsGceGHZV2gyuFo57VyxegdwUU8HxD1vrKZEsE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzg1YzNkNzAy/LTM3ODctNDY1ZC1h/Nzg0LWUyNzg2Mzk1/YTFkNw)
+
+[Check the full code here (Github repo)](https://github.com/DARSHANSV15/MarvelTasks-Level2/tree/main/Task2_AsyncJS)
+<br><br>
+[Link to the live webpage](https://cake-bakerr.netlify.app/)
+<br><br>
+_____
+# Task 3 - Promises
+
+![](https://miro.medium.com/v2/resize:fit:828/format:webp/1*RWT_fE7c7VezMvwWzIAAwQ.png)
+
+**Objective of this task:**  
+To implement the previous recipe program with promises and learn the potential benefits and improvements of using the promises.
+
+**Promises** in JavaScript provide a cleaner and more structured way to handle asynchronous operations,  providing better readability, error handling, and control flow compared to traditional callback-based approaches. They represent the eventual completion or failure of an asynchronous operation and allow you to attach callbacks to handle the result once it's available.  
+
+A promise can be in one of three states: **pending, fulfilled, or rejected**. When a promise is created, it's in the pending state. It transitions to either fulfilled (resolved successfully) or rejected (encountered an error) based on the outcome of the asynchronous operation.
+
+#### Crux Code
+
+```js
+const displayStep = (step) => {
+  return new Promise(resolve => {
+    const recipeStepsElement = document.getElementById('recipe-steps');
+    const stepDiv = document.createElement('div');
+    stepDiv.textContent = step;
+    recipeStepsElement.appendChild(stepDiv);
+    setTimeout(resolve, 2000);
+  });
+};
+
+const startRecipe = () => {
+  const stepsPromises = recipeSteps.map(step => displayStep(step));
+  
+  Promise.all(stepsPromises)
+    .then(() => {
+      alert("Recipe completed!");
+    })
+    .catch(error => {
+      console.error("Error occurred:", error);
+    });
+};
+```
+
+[Check the full code here (Github repo)](https://github.com/DARSHANSV15/MarvelTasks-Level2/tree/main/Task3_Promises)
+<br><br>
+[Link to the live webpage](https://cake-bakers-promise.netlify.app/)
+<br><br>
+_____
 # Task 4: Get familiar with the command line on ubuntu:
 
 ![](https://imageio.forbes.com/blogs-images/jasonevangelho/files/2018/07/ubuntu-logo.jpg?format=jpg&width=1440)
@@ -170,4 +259,6 @@ tar -cvf logs.tar logs
 gzip logs.tar
 ```  
 ![](https://img.playbook.com/xAgLCJjB2SDgO5Z8PQHLMpOwM3Yt2scWiHC0ZeTPjmg/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzJmMmY3NGRi/LWFiYTEtNDIwNy1h/ZWU3LTQzZThmMzU1/Y2ExMw)
+
+[Check the full code here (Github repo).](https://github.com/DARSHANSV15/MarvelTasks-Level2/tree/main/Task6_LinuxContinued)
 _____
