@@ -12,28 +12,36 @@ const recipeSteps = [
   "Step 10: Slice and serve your delicious homemade cake!"
 ];
 
-const displayStep = (step) => {
-  return new Promise(resolve => {
-    const recipeStepsElement = document.getElementById('recipe-steps');
-    const stepDiv = document.createElement('div');
-    stepDiv.textContent = step;
-    recipeStepsElement.appendChild(stepDiv);
-    setTimeout(resolve, 2000);
-  });
+const displayStep = (step, callback) => {
+  const recipeStepsElement = document.getElementById('recipe-steps');
+  const stepDiv = document.createElement('div');
+  stepDiv.textContent = step;
+  recipeStepsElement.appendChild(stepDiv);
+  setTimeout(callback, 2000);
 };
 
-function autoScrollDown() { 
+function autoScrollDown(callback) { 
   window.scrollBy(0, 100); // You can adjust the second parameter to control the speed of the scroll 
-  setTimeout(autoScrollDown, 10); // You can adjust the time interval based on your preference 
+  setTimeout(callback, 10); // You can adjust the time interval based on your preference 
 } 
 
 
-const startRecipe = async () => {
-  for (const step of recipeSteps) {
-    await displayStep(step);
-    autoScrollDown();
-  }
-  alert("Recipe completed!");
+const startRecipe = () => {
+  let index = 0;
+
+  const displayNextStep = () => {
+    if (index < recipeSteps.length) {
+      const step = recipeSteps[index];
+      displayStep(step, () => {
+        autoScrollDown(displayNextStep);
+      });
+      index++;
+    } else {
+      alert("Recipe completed!");
+    }
+  };
+
+  displayNextStep();
 };
 
 document.getElementById('start-btn').addEventListener('click', startRecipe);
