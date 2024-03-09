@@ -48,6 +48,8 @@ I have created this wonderfull static webpage, **Student Performances Calculator
 ________________________________________
 # Task 4: Get familiar with the command line on ubuntu:
 
+![](https://imageio.forbes.com/blogs-images/jasonevangelho/files/2018/07/ubuntu-logo.jpg?format=jpg&width=1440)
+
 * Create a folder named test.
 * cd into that folder.
 * Create a blank file without using any text editor.
@@ -73,6 +75,8 @@ cat file1.txt file2.txt
 _____
 
 # Task 5 - VI
+
+![](https://img.playbook.com/EeVFZrQHI4-7OPhxmBZLTqKsyP2kE1bOSfRU4E5RPwQ/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzk4OWQ0ZjYx/LTZiYmYtNDA4Ny1h/ZmM0LTdhMGJlMTZj/YzRhZA)
 
 Vi is a powerful and ubiquitous text editor that has been a staple in the UNIX and Linux environments. Known for its efficiency and versatility, Vi provides users with a minimalist yet highly customizable interface for editing text files directly within the terminal.  
 <br>
@@ -137,6 +141,8 @@ I learnt to edited text files in VI text-editor in Linux systems. I have edited 
 _____
 
 # Task 6 - Linux Continued
+
+![](https://c4.wallpaperflare.com/wallpaper/980/964/908/linux-minimalism-foxyriot-tux-wallpaper-preview.jpg)
 
 Objectives of this task:
 * Basics of regex and piping.
