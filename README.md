@@ -262,3 +262,76 @@ gzip logs.tar
 
 [Check the full code here (Github repo).](https://github.com/DARSHANSV15/MarvelTasks-Level2/tree/main/Task6_LinuxContinued)
 _____
+
+# Task 7 - Introduction to Cloud Computing
+_____
+# Task 8 - Introduction to Cybersecurity
+
+### Confidentiality, Integrity, Availability (CIA)
+
+The **CIA triad** stands as a fundamental framework for understanding and implementing effective security measures. These principles form the cornerstone of security strategies, guiding organizations in safeguarding their digital assets against a myriad of threats and vulnerabilities.  
+
+**Confidentiality** refers to the protection of sensitive information from unauthorized access or disclosure.
+
+**Integrity** ensures the accuracy, consistency, and reliability of data throughout its lifecycle. It involves safeguarding data from unauthorized alteration, corruption, or tampering.  
+
+**Availability** guarantees that information and resources are accessible and usable when needed by authorized users. It protects against disruptions, downtime, and denial-of-service attacks that could impair system functionality.
+
+### Common Types of Cyber Threats
+
+**Malware**, short for malicious software, encompasses a broad category of **malicious programs designed to infiltrate, damage, or gain unauthorized access to computer systems or networks**. Common types of malware include **viruses, worms, Trojans, ransomware, and spyware**.
+
+**Phishing** is a form of cyber attack that involves fraudulent attempts to deceive individuals into divulging sensitive information, such as passwords, usernames, or financial data. Typically, **phishing attacks occur via email, instant messaging, or social media**, where attackers impersonate legitimate entities, such as banks, government agencies, or trusted organizations. By **exploiting human trust and curiosity**, phishing attacks can lead to identity theft, financial fraud, or unauthorized access to accounts.
+
+**Social engineering** is a psychological manipulation technique used by cybercriminals to exploit human behavior and manipulate individuals into disclosing confidential information or performing actions that compromise security. Unlike traditional hacking methods that target technical vulnerabilities, social engineering relies on psychological manipulation and social interaction to deceive victims.
+
+### Cybersecurity Frameworks and Standards
+
+Cybersecurity frameworks and standards provide structured approaches, best practices, and guidelines for assessing, implementing, and managing cybersecurity controls. They help organizations establish effective cybersecurity programs, mitigate risks, and enhance resilience against cyber threats.  
+
+Some prominent cybersecurity frameworks and standards:
+
+* NIST Cybersecurity Framework (CSF)
+* ISO/IEC 27001
+* NIST Risk Management Framework (RMF)
+* CIS Controls
+* PCI DSS
+
+### Hands on experience >>>>>
+
+To Convert & document the following text into Caesar cipher, Pigpen cipher, Morse code, Rail fence cipher, Polybius cipher & Playfair cipher:
+
+#### Original Text: "Cybersecurity in Marvel".
+
+**Caesar Cipher:** Each letter in the original text is shifted by 3 positions in the alphabet. For example, 'C' becomes 'F', 'y' becomes 'b', and so on.
+```
+Fbehvxfduublq lq Pdunyo
+```
+
+**Pigpen Cipher:** Each letter is replaced by its corresponding symbol in the pigpen cipher.
+```
+🞴🞵🞹🞥🞹🞼🞲🞩🞹🞼🞩🞱 🞻🞹 🞵🞸🞹🞥🞹🞼🞲🞩
+```
+
+**Morse Code:** Each letter in the original text is represented by a series of dots and dashes.
+```diff
+-.-. -.-- -... . .-. ... -.-- -.. .. -... .-.. --.- ..- .-. -.-- .. -. --. .- .-.. 
+```
+
+**Rail Fence Cipher:** The text is written in a zigzag pattern across a specified number of "rails" or lines, then read off in rows.
+```
+Cycrry ra ivrleMsebno
+```
+
+**Polybius Cipher:** Each letter in the original text is represented by a pair of numbers corresponding to its position in a 5x5 grid.
+```
+33 25 12 52 34 33 43 23 32 52 33 32 52 35 25 23
+```
+
+**Playfair Cipher:** Each pair of letters is encrypted using a keyword-driven method based on a 5x5 grid (omitting duplicates and using a keyword to determine grid placement).
+```
+KBWVCXDXDKGNAF
+```
+
+[Check the full code here (Github repo).](https://github.com/DARSHANSV15/MarvelTasks-Level2/tree/main/Task6_LinuxContinued)
+_____
