@@ -6,29 +6,19 @@
 
 The objective of this task is to learn the basics of the programming language **JavaScript**.
 
-JavaScript is a versatile programming language primarily used for web development. Its specialty lies in its ability to interact with HTML and CSS to create dynamic and interactive web pages. Here are some of its key features and uniqueness:
-
-1. *Client-Side Scripting*
-
-2. *Event-Driven*
-
-3. *Asynchronous Programming*
-
-4. *Dynamic Typing* 
-
-5. *Prototype-based Inheritance* 
+JavaScript is a versatile programming language primarily used for web development. Some of its key features and uniqueness are: *Client-Side Scripting*, *Event-Driven*, *Asynchronous Programming*, *Dynamic Typing*, *Prototype-based Inheritance* etc.
 
 Important topics in JavaScript include:
 
-1. *Basic Syntax and Data Types:* Understanding variables, operators, data types like strings, numbers, arrays, objects, and basic control flow structures like if statements and loops.
+1. Variables, operators, data types like strings, numbers, arrays, objects, and basic control flow structures like if statements and loops.
 
-2. *Functions:* Learning about function declarations, expressions, anonymous functions, arrow functions, and function scope.
+2. Functions, function declarations, expressions, anonymous functions, arrow functions, and function scope.
 
-3. *DOM Manipulation:* Interacting with the Document Object Model (DOM) to dynamically change HTML and CSS, handling events, and updating page content.
+3. DOM Manipulation, Interacting with the Document Object Model (DOM) to dynamically change HTML and CSS, handling events, and updating page content.
 
-4. *ES6+ Features:* Exploring new features introduced in (ES6) and later versions, such as let and const, arrow functions, classes, destructuring, spread/rest operators, and modules.
+4. New features introduced in (ES6) and later versions, such as let and const, arrow functions, classes, destructuring, spread/rest operators, and modules.
 
-5. *Error Handling:* Handling errors gracefully using try-catch blocks and understanding common JavaScript errors.
+5. Handling errors gracefully using try-catch blocks and understanding common JavaScript errors.
 
 ### Hands-on experience >>>>
 
@@ -169,12 +159,8 @@ _____
 
 Vi is a powerful and ubiquitous text editor that has been a staple in the UNIX and Linux environments. Known for its efficiency and versatility, Vi provides users with a minimalist yet highly customizable interface for editing text files directly within the terminal.  
 <br>
-Key features of Vi include its modal editing system, which allows users to switch between different modes for tasks such as inserting text, navigating, and making edits. This modal approach contributes to Vi's efficiency once users become accustomed to its unique commands and shortcuts.
-
-Vi also offers extensive customization options through its configuration files, allowing users to tailor the editor to their specific needs and preferences. Additionally, Vi's integration with the command-line interface makes it a favorite among programmers and system administrators for quickly editing configuration files, scripts, and other text-based documents.  
+Key features of Vi include its modal editing system, which allows users to switch between different modes for tasks such as inserting text, navigating, and making edits.
 <br>
-Despite its steep learning curve, mastering Vi can significantly boost productivity, especially for those who spend a lot of time working within terminal environments or on remote servers. Its lightweight design and widespread availability make Vi an essential tool for anyone working with text files in a command-line environment.
-<br><br>
 To open an existing file with Vi text-editor, use the following command
 ```shell
 vi/path/to/file
