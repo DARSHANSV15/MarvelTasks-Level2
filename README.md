@@ -367,6 +367,4 @@ Cycrry ra ivrleMsebno
 ```
 KBWVCXDXDKGNAF
 ```
-
-[Check the full code here (Github repo).](https://github.com/DARSHANSV15/MarvelTasks-Level2/tree/main/Task8_CY)
 _____
