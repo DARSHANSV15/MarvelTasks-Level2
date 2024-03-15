@@ -167,8 +167,6 @@ vi/path/to/file
 ```
 This command works even if the file doesn't exist yet, Vi will create a new file and write it to specified location when you save the file.  
 
-<br>
-
 To edit a system file, use the keyword **sudo**
 ```shell
 sudo vi/path/to/file
