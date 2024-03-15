@@ -300,7 +300,7 @@ _____
 
 ### Confidentiality, Integrity, Availability (CIA)
 
-The **CIA triad** stands as a fundamental framework for understanding and implementing effective security measures. These principles form the cornerstone of security strategies, guiding organizations in safeguarding their digital assets against a myriad of threats and vulnerabilities.  
+The **CIA triad** stands as a fundamental framework for understanding and implementing effective security measures. These principles form the core principles of security strategies, guiding organizations in safeguarding their digital assets against a myriad of threats and vulnerabilities.  
 
 **Confidentiality** refers to the protection of sensitive information from unauthorized access or disclosure.
 
@@ -310,11 +310,15 @@ The **CIA triad** stands as a fundamental framework for understanding and implem
 
 ### Common Types of Cyber Threats
 
-**Malware**, short for malicious software, encompasses a broad category of **malicious programs designed to infiltrate, damage, or gain unauthorized access to computer systems or networks**. Common types of malware include **viruses, worms, Trojans, ransomware, and spyware**.
+* Malware (Ransomware, spyware, trojan etc)
+* Denial-of-Service (DOS) Attacks
+* Pishing
+* Identity Spoofing (Domain spoofing, Email spoofing)
+* Code Injection Attacks (SQL injection, Cross site scripting)
+* Supply chain attacks
+* IoT based attacks
+* DNS Tunneling
 
-**Phishing** is a form of cyber attack that involves fraudulent attempts to deceive individuals into divulging sensitive information, such as passwords, usernames, or financial data. Typically, **phishing attacks occur via email, instant messaging, or social media**, where attackers impersonate legitimate entities, such as banks, government agencies, or trusted organizations. By **exploiting human trust and curiosity**, phishing attacks can lead to identity theft, financial fraud, or unauthorized access to accounts.
-
-**Social engineering** is a psychological manipulation technique used by cybercriminals to exploit human behavior and manipulate individuals into disclosing confidential information or performing actions that compromise security. Unlike traditional hacking methods that target technical vulnerabilities, social engineering relies on psychological manipulation and social interaction to deceive victims.
 
 ### Cybersecurity Frameworks and Standards
 
