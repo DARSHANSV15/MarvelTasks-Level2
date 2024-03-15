@@ -264,6 +264,37 @@ gzip logs.tar
 _____
 
 # Task 7 - Introduction to Cloud Computing
+
+**Cloud Computing** refers to data and applications being stored and run on the cloud rather than on our local computer.  
+The **cloud** is a place where large numbers of servers are stored and kept functional so as to provide services like running applications, storing data, data processing and web hosting.  
+A **server** is simply a computer with high end configuration that is kept functional all time.
+
+### Top players in the cloud industry
+
+* Amazon Web Services [AWS]
+* Microsoft Azure
+* Google Cloud Platform [GCP]
+* Alibaba
+* IBM
+
+### Types of Cloud Services
+
+![](https://img.playbook.com/-K7XkNjGTxSpBxFRn7PyqDFqOOqyW2gcpWw9iABHe9I/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzc5OTI1NDM1/LTY0NjMtNDcwNi04/NjI5LTIzODliMzMz/M2U0OA)
+
+1. **IaaS**:
+    * provides basic computing infrastucture.
+    * services are available on **pay-for-what-you-use** model.
+    * Ex: AWS Ec2, Google compute engine.
+
+2. **PaaS**: 
+    * provide cloud platforms and runtime environment for development, testing and managing apps.
+    * allows developers to deploy apps without requiring all the related infrastructure.
+    * Ex: AWS EBS, GCP app engine.
+
+3. **SaaS**: 
+    * cloud providers host and manage the software application on a **pay-as-you-go** pricing model.
+    * All the necessary software and hardware is provided and managed by the provider, so you don't have to maintain anything.
+    * Ex: Microsoft Office services, Google Apps.
 _____
 # Task 8 - Introduction to Cybersecurity
 
