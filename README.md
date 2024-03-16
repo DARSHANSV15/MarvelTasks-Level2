@@ -281,7 +281,7 @@ A **server** is simply a computer with high end configuration that is kept funct
     * Ex: Microsoft Office services, Google Apps.
 _____
 # Task 8 - Introduction to Cybersecurity
-
+![](https://www.researchgate.net/publication/363313465/figure/fig4/AS:11431281083240141@1662480680588/The-overview-of-some-common-types-of-cyber-attacks.png)
 ### Confidentiality, Integrity, Availability (CIA)
 
 The **CIA triad** stands as a fundamental framework for understanding and implementing effective security measures. These principles form the core principles of security strategies, guiding organizations in safeguarding their digital assets against a myriad of threats and vulnerabilities.  
